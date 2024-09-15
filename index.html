@@ -4,31 +4,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="placeholder.css">
+        <script src="index.js"></script>
     </head>
     <body>
 
         <header class="main-header">
-            <h1>
-                <!-- put welcoming opener herege yes yes -->
-                <p> Hi I'm cygni i love league of legends</p>
-            </h1>
-
+            <h1>Cygni's Personal Website</h1>
+            <p>Stay for a bit!</p>
             <nav>
-                <a href="#" class="button">Home</a>
-                <a href="#" class="button">My social media</a>
+                <a href="#" class="tablinks" onclick="openTab(event, 'Home')">Home</a>
+                <a href="#" class="tablinks" onclick="openTab(event, 'Socialmedia')">My social media</a>
             </nav>
         </header>
 
         <main class="main content">
 
-            <section class="personal-image">
+            <div id="Home" class="tabcontent">
 
-            </section>
+                <section class="homege">
+                    <div class="home-picture">
+                        <img src="https://i.pinimg.com/736x/a5/7a/f3/a57af3eb5e2e08858aeb1d111b5224f7.jpg" alt="personal image">
+                    </div>
+                </section>
+    
+                <section class="home-content">
+    
+                    <h1> Hi, I'm CJ and this is my personal page.</h1>
+                    <h3 class="description"> I'm a 2nd Year BSIT student in University of the Cordilleras.</h3>
+                    <p> I'm a WebTech student, and I'm just your average College neet who loves League of Legends and FFXIV too much.</p>
+    
+                </section>
+            </div>
+
+            <div id="Socialmedia" class="tabcontent">
+                <!-- add my socmed here basta -->
+            </div>
+
 
         </main>
 
     </body>
-
+ 
     <footer>
         
     </footer>
