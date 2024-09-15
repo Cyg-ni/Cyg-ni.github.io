@@ -23,6 +23,39 @@
 .tablinks.active {
     font-weight: bold; 
 }
+
+#Socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/224/984/original/seamless-pattern-with-cute-light-blue-stars-on-white-background-image-vector.jpg);
+    border-style: solid;
+    border-color: rgb(217, 223, 255);
+    border-width: 10px;
+}
+
+#Home{
+    padding: 50px;
+}
+
+.tabpane {
+    padding:50px;
+}
+
+#home-picture img{
+    margin-right: 50px;
+}
+
+#home-desc{
+    padding: 50x;
+}
+
+#maindescriptor{
+    text-align: center;
+}
   
 
   body {
@@ -31,11 +64,12 @@
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
+    padding: 50x;
 }  
 
 header{
     width: 100;
-    height: 20vh;
+    height: 15vh;
     overflow-x: hidden;
     background-image: url(https://png.pngtree.com/background/20210716/original/pngtree-cute-cartoon-pattern-baby-blue-background-picture-image_1348680.jpg);
     border-color: white;
@@ -43,7 +77,14 @@ header{
     border-width: 5px;
     border-style: solid;
     margin-top: 20px;
+    text-align: center;
+    padding: 50x;
+  
 
+}
+
+footer{
+    text-align: center;
 }
 
 
