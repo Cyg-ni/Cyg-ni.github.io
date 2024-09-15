@@ -24,6 +24,31 @@
     font-weight: bold; 
 }
 
+.videogames {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f8fbff;
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+#cinammo {
+
+    text-align: center; 
+}
+
+#cinammo img{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 10px;
+    align-content: center;
+    display: inline-block;
+    width:400px;
+    height:350px;
+}
+
 #Socialmedia{
     display: flex;
     justify-content: center;
